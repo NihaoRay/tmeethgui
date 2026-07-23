@@ -1,26 +1,30 @@
-# tmeethgui
-#### 腾讯会议签到提醒工具，合法、无破解、不涉及隐私、不干扰其他程序运行.
-
-✨ **技术原理：**仅仅使用yolo目标识别，识别到弹框就做语音提醒。
+# TencentMeetingHelper
 
 
+腾讯会议智能签到助手，基于 AI 目标识别技术，7×24 小时实时监测签到弹窗，第一时间语音提醒您。
 
-### 技术广告与优势
-
-🌟 还在为上网课、开长会时的“随机签到”提心吊胆吗？去个洗手间、倒杯水、拿个外卖的功夫就遗憾漏签了？
-✨ 这款【腾讯会议签到提醒助手】专为您打造！让您安心听会，告别紧盯屏幕的烦恼！
-
-🔥 核心功能与优势：
-1️⃣ 精准捕捉提醒：采用先进的AI图像识别技术，**精准识别屏幕上的签到弹窗**，第一时间给您提醒，彻底告别随机签到的紧张感！
-2️⃣ 隐私安全无忧：纯本地化运行，不读取任何底层数据，不涉及账号密码，100%保护您的隐私安全，绿色合规。
-3️⃣ 解放双眼：无论是学生党上网课，还是打工人开冗长会议，帮您分担注意力，再也不用神经紧绷盯着屏幕。
-4️⃣ 无忧售后：工具持续更新维护，提供详细图文/视频教程，包教会！一对一售后解答，电脑小白也能轻松上手。
-
-💡 **适用场景：**网课学习、公司长会、培训讲座等一切需要不定时签到的场景。
-
-⚠️ **温馨提示：**本产品仅为“AI屏幕识别提醒”效率辅助工具，纯绿色运行，非破坏性程序，符合平台规范，请大家放心！
-
-📩 想要轻松开会/上课的朋友，早用早轻松~ 🏃‍♂️💨
+开会摸鱼、临时离开、多个会议并行——再也不怕错过签到。
 
 
+## 环境要求
 
+- Windows
+- 显示器的分辨率比例为 16:9 且分别率至少为 1920×1080
+- 从 yolov8m.pt 模型上微调的 数据集 train_dataset的地址： https://drive.google.com/file/d/1W9AWTlRy0sT7PyK9b97cfG41U16hIu1d/view?usp=sharing
+
+## 运行方式
+
+- 需要从谷歌drive下载数据集，然后覆盖掉train_dataset，运行 yolo_train.py 文件
+- 没有认证的（这个必须要慎用，测试环境下）编译的命令: `pyinstaller --onedir --noconsole --collect-all rapidocr_onnxruntime --exclude-module PyQt5 --exclude-module PySide6 --exclude-module PySide2 --exclude-module PyQt6 --exclude-module matplotlib --exclude-module scipy --exclude-module tensorboard tmeethgui.py`
+- 带有认证模块的编译方式（可以发现到只是最后的文件不一样： tmeethgui.py 和 main.py）：`pyinstaller --onedir --noconsole --collect-all rapidocr_onnxruntime --exclude-module PyQt5 --exclude-module PySide6 --exclude-module PySide2 --exclude-module PyQt6 --exclude-module matplotlib --exclude-module scipy --exclude-module tensorboard main.py`
+
+
+## 安装
+
+前往[Release](https://github.com/NihaoRay/TencentMeetingHelper/releases/)，下载压缩包`tmeethgui.rar`并解压。
+打开`config.yaml`，根据需要修改配置。最后双击`tmeethgui.exe`即可运行。
+
+## 下载地址
+
+通过网盘分享的文件：tmeethgui-1.1.rar
+链接: https://pan.baidu.com/s/1rFy0SO1UIpxobrmZfiPRYg?pwd=1122 提取码: 1122

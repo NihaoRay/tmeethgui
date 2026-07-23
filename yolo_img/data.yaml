@@ -1,0 +1,14 @@
+path: /home/chenrui/workspace/github/TencentMeetingHelper/yolo_img
+
+train: images/train
+val: images/train
+
+nc: 4
+names: ['jiaru', 'checkin', 'qiandao', 'guanbi']
+
+roboflow:
+  workspace: chenruidutcn
+  project: ui-jcnu5-kcisb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chenruidutcn/ui-jcnu5-kcisb/dataset/1
