@@ -1,9 +1,13 @@
-# TencentMeetingHelper
+# tmeethgui 腾讯会议签到助手
+
+
 
 
 腾讯会议智能签到助手，基于 AI 目标识别技术，7×24 小时实时监测签到弹窗，第一时间语音提醒您。
 
 开会摸鱼、临时离开、多个会议并行——再也不怕错过签到。
+
+
 
 
 ## 环境要求
@@ -21,10 +25,17 @@
 
 ## 安装
 
-前往[Release](https://github.com/NihaoRay/TencentMeetingHelper/releases/)，下载压缩包`tmeethgui.rar`并解压。
+前往[Release](https://github.com/NihaoRay/tmeethgui/releases/)，下载压缩包`tmeethgui.rar`并解压。
 打开`config.yaml`，根据需要修改配置。最后双击`tmeethgui.exe`即可运行。
 
-## 下载地址
 
+
+## 第三方网盘下载地址
+
+腾讯会议签到
+https://pan.baidu.com/s/1YDPJKj4VjOp-Cnt-4OiA6A?pwd=1122 提取码: 1122
+https://pan.baidu.com/s/15sqxSvZ4KH6FpupBkLm1Uw?pwd=1122
 通过网盘分享的文件：tmeethgui-1.1.rar
-链接: https://pan.baidu.com/s/1rFy0SO1UIpxobrmZfiPRYg?pwd=1122 提取码: 1122
+链接: https://pan.baidu.com/s/1G49xy9-qTb0GnZ2U3_M-MA?pwd=1122 提取码: 1122
+通过网盘分享的文件：tmeethgui-1.2.rar
+链接: https://pan.baidu.com/s/13mWbdeSYYtOKl_uvpig-Yw?pwd=1122 提取码: 1122
