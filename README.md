@@ -26,7 +26,16 @@
 ## 安装
 
 前往[Release](https://github.com/NihaoRay/tmeethgui/releases/)，下载压缩包`tmeethgui.rar`并解压。
-打开`config.yaml`，根据需要修改配置。最后双击`tmeethgui.exe`即可运行。
+
+**随后双击**`tmeethgui.exe`即可运行。`tmeethgui.exe`软件在打开的时候，会停留在一个默认的位置。
+
+接着**开启腾讯会议需要最大化界面**，并置于桌面的最前面（腾讯会议必须要在所有软件最前面，因为tmeethgui识别腾讯会议的界面），如下图所示这样即可。
+
+
+
+
+
+<img src="./test/test_screen_1.png" alt="test_screen_1" style="zoom: 25%;" />
 
 
 
